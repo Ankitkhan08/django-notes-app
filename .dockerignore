@@ -1,0 +1,8 @@
+# .dockerignore
+
+# Ignore the database data directory to solve the permission error
+data/
+
+# Also ignore other unnecessary files
+.git
+__pycache__/
